@@ -1,0 +1,117 @@
+<html>
+<head>
+<title>Tp-NOTIONS DE BASE SUR LE WEB ET LE HTML</title>
+</head>
+
+<body>
+
+<p align="center"><strong>TP1: Informations g&eacute;n&eacute;rales sur la page</strong></p>
+<p>NOTIONS DE BASE SUR LE WEB ET LE HTML </p>
+<p>Ce premier TP explique rapidement ce qu'est une page HTML et comment elle est 
+  construite et structur&eacute;e. Cette approche permettra de mieux comprendre 
+  le r&ocirc;le et le fonctionnement de DREAMWEAVER en tant qu'outils d'&eacute;dition 
+  de page WEB et gestionnaire de site Internet. Vous trouverez les sections suivantes 
+  : </p>
+  Un peu d'historique<br>
+  Format d'une page HTML<br>
+  Balises m&eacute;ta<br>
+  Edition des pages<br>
+  Gestion du site<br>
+  <p>I. Un peu d'Historique </p>
+  <p>HTML signifie HyperText Markup Language, soit litt&eacute;ralement &quot;Langage 
+  Hypertexte &agrave; Balise&quot;. HTML a &eacute;t&eacute; cr&eacute;e par la communaut&eacute; scientifique pour 
+  pouvoir communiquer les r&eacute;sultats de leurs recherches rapidement via 
+  Internet. La contrainte de d&eacute;part &eacute;tait de pouvoir transf&eacute;rer 
+  les documents rapidement, donc partiellement, tout en &eacute;tant consultable 
+  quelle que soit la plate forme informatique cible. Depuis sa naissance les sp&eacute;cifications 
+  et possibilit&eacute;s du langage ont beaucoup &eacute;volu&eacute;es. </p>
+<p>Remarques :</p>
+<p>On parle indiff&eacute;remment de page WEB, page HTML, document WEB ou encore 
+  de fichier HTML.<br>
+  Sur Internet, chaque page HTML est localis&eacute;e gr&acirc;ce &agrave; un 
+  chemin que l'on appelle URL pour &quot;Uniform Resource Location&quot;.</p>
+<p>II. Format d'une page HTML : balises, structuration d'un document ... </p>
+<p>Une page WEB est donc d&eacute;crite gr&acirc;ce au langage HTML qui sera &quot;compris&quot; 
+  par le navigateur Web charg&eacute; de l'afficher (hors du contexte du navigateur, 
+  une page HTML est simplement un fichier texte structur&eacute;). Ce langage 
+  d&eacute;coupe chaque document WEB selon un format bien pr&eacute;cis dont voici 
+  le squelette minimal :</p>
+&lt;HTML&gt;<br>
+  &lt;HEAD&gt;<br>
+  &lt;TITLE&gt;Ceci est le titre du document&lt;/TITLE&gt;<br>
+  &lt;/HEAD&gt;<br>
+  &lt;BODY&gt;<br>
+  Ceci est le corps du document<br>
+  &lt;/BODY&gt;<br>
+  &lt;/HTML&gt; <br>
+<p>Le code HTML ci-dessus repr&eacute;sente un document HTML minimal. Chaque &eacute;l&eacute;ment 
+  entre &quot;&lt;&quot; et &quot;&gt;&quot; s'appelle une balise. Le r&ocirc;le 
+  d'une balise est de d&eacute;limiter une zone de texte que le navigateur affichera 
+  ou interpr&egrave;tera en fonction de la signification de la balise.</p>
+  Par exemple, lorsque le navigateur rencontre la ligne :<br>
+  &lt;TITLE&gt;Ceci est le titre du document&lt;/TITLE&gt;<br>
+il ins&egrave;re la chaine &quot;Ceci est le titre du document&quot; dans la barre 
+de titre de la fen&ecirc;tre du navigateur. Il est &agrave; noter que les balises 
+ne doivent pas se trouver n'importe o&ugrave;, certaines sont imbriqu&eacute;es 
+d'une mani&egrave;re bien pr&eacute;cise pour pr&eacute;ciser des zones du document. 
+C'est le cas notamment des balises &lt;HEAD&gt;, &lt;BODY&gt; ou encore de celles 
+permettant de d&eacute;finir les lignes et colonnes d'un tableau ( balises &lt;TR&gt; 
+et &lt;TD&gt;). A noter &eacute;galement que dans le cas g&eacute;n&eacute;ral 
+chaque balise ouvrante (&lt;xx&gt;) poss&egrave;de une balise fermante (&lt;/xx&gt;). 
+<p>III. Balises &quot;m&eacute;ta&quot; </p>
+ <p> Dans la zone en-t&ecirc;te du document (d&eacute;limit&eacute;e par les balises 
+  &lt;HEAD&gt; et &lt;/HEAD&gt;), on trouve certaines balises particuli&egrave;res 
+  appel&eacute;es balises META.</p>
+  Ces derni&egrave;res ne sont pas affich&eacute;es par le navigateur mais lui 
+  fournissent certaines informations, comme par exemple la langue utilis&eacute;e. 
+  Certaines servent aux moteurs de recherche comme les balises suivantes :</p>
+&lt;meta name=&quot;author&quot; content=&quot;Votre nom Exp: Ettarres Yamna 
+  &quot;&gt;<br>
+  &lt;meta name=&quot;reply-to&quot; content=&quot;yamna.ettarres@xxxx.xx&quot;&gt;<br>
+  &lt;meta name=&quot;description&quot; content=&quot;Ma description&quot;&gt;<br>
+  &lt;meta name=&quot;keywords&quot; content=&quot;HTML, Dreamweaver&quot;&gt;<br>
+  &lt;meta name=&quot;generator&quot; content=&quot;Macromedia Dreamweaver &quot;&gt;<br>
+  &lt;meta name=&quot;language&quot; content=&quot;fr&quot;&gt; <br>
+<p>D'autres informations dans la partie en-t&ecirc;te permettent de cr&eacute;er 
+  des liens entre le document actif et un autre document comme une feuille de 
+  style. </p>
+<p>Maintenant que vous savez ce qu'est une page HTML, et ce qu'est HTML lui m&ecirc;me, 
+  cette section montre en quoi DREAMWEAVER intervient pour faciliter la cr&eacute;ation 
+  de pages. </p>
+<p>IV. Edition des pages</p>
+<p>HTML apparait comme un langage plus ou moins complexe. Aussi s'il est possible 
+  d'&eacute;diter une page HTML avec un outils aussi simple que le bloc note, 
+  il est beaucoup plus pratique d'utiliser des outils d&eacute;di&eacute;s, ces 
+  dernier permettant de gagner du temps et d'&eacute;viter des erreurs.</p>
+<p>DREAMWEAVER est un outils d'&eacute;dition de page HTML en mode WYSIWYG (What 
+  You See Is What You Get). Il permet de cr&eacute;er des pages Web sans connaitre 
+  le HTML, tout en visualisant l'aspect de la page en m&ecirc;me temps qu'on l'&eacute;dite. 
+  Dans ce principe, il est relativement similaire &agrave; un outils comme Word.</p>
+<p>DREAMWEAVER ne fait que masquer la complexit&eacute; et les sp&eacute;cificit&eacute;s 
+  du HTML, mais ne les inhibe pas : il en subit forc&eacute;ment les contraintes 
+  et les concepts. Il est ainsi important de prendre en compte lors de l'&eacute;dition 
+  des pages, le fait que les documents HTML peuvent &ecirc;tre affich&eacute;s 
+  diff&eacute;remment suivant des plate-formes informatiques h&eacute;t&eacute;rog&egrave;nes, 
+  avec des navigateurs diff&eacute;rents. La premi&egrave;re chose &agrave; faire 
+  lorsqu'on souhaite cr&eacute;er un site WEB est donc de d&eacute;finir une charte 
+  graphique qui se pr&eacute;sentera correctement sur tout environnement cible. 
+  Pour cette m&ecirc;me raison, il est important de tester les pages sur au moins 
+  les deux navigateurs standards actuels : Netscape Navigator et Internet Explorer 
+  (IE). </p>
+<p>V. Gestion du site</p>
+ <p>A partir du moment o&ugrave; une page HTML n'est plus seule et isol&eacute;e, 
+  on parle de site WEB. La difficult&eacute; de gestion d'un site WEB consiste 
+  en la gestion des diff&eacute;rentes pages et fichiers annexes (images ...), 
+  et &agrave; la mise &agrave; jour des liens hypertextes car on se retrouve tr&egrave;s 
+  rapidement avec une arborescence imposante de fichiers, certains &eacute;tant 
+  &agrave; jour sur le serveur alors que d'autres sont en cours de modification 
+ ou de cr&eacute;ation.</p>
+ <p>Heureusement, un outils comme DREAMWEAVER (mais ce n'est bien s&ucirc;r pas 
+  le seul ...) permet outre l'&eacute;dition de pages HTML, la gestion d'un site. 
+  En effet il permet : Il est vrai que FrontPage ou Visual Interdev par exemple, 
+  remplissent tr&egrave;s bien ce r&ocirc;le, il en reste n&eacute;ammoins que 
+  le serveur doit &ecirc;tre de la gamme Microsoft (NT4 ou 2000 Serveur) avec 
+  IIS et de surcroit les extensions FrontPage... Le choix ici d&eacute;pend de 
+  la politique que l'on souhaite adopter ... </p>
+</body>
+</html>
